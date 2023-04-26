@@ -1,0 +1,77 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+.header {
+    font-size: 18px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+}
+
+.information h2 {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.testimonial quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.testimonial p {
+    font-weight: bold;
+    text-align: right;
+}
+
+.action-call {
+    background-color: #3882f6;
+    color: #F9FAF8
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
