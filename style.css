@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .header, .hero, .footer {
@@ -60,6 +61,20 @@ button {
     padding: 4px 24px;
     border-radius: 6px;
     font-weight: bold;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px;
+    padding: 32px 64px;
+    border-radius: 6px;
+}
+
+.action-call h3, p {
+    margin: 0;
+    padding: 0;
 }
 
 .action-call button {
