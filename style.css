@@ -72,23 +72,6 @@ button {
     font-weight: bold;
 }
 
-.action-call {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 32px;
-    padding: 32px 64px;
-    border-radius: 6px;
-}
-
-.action-call h3, p {
-    margin: 0;
-    padding: 0;
-}
-
-.action-call button {
-    border: 2px solid white;
-}
 
 .information {
     text-align: center;
@@ -122,7 +105,7 @@ button {
 
 .testimonial {
     background-color: #e5e7eb;
-    padding: 32px;
+    padding: 64px;
 }
 
 .testimonial quote {
@@ -139,7 +122,22 @@ button {
 
 .action-call {
     background-color: #3882f6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px;
+    padding: 32px 64px;
+    border-radius: 6px;
+}
+
+.action-call h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.action-call button {
+    border: 2px solid white;
 }
 
 .footer {
