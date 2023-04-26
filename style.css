@@ -32,6 +32,13 @@ a {
     color: #e5e7eb;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -39,6 +46,11 @@ a {
 
 .hero p {
     font-size: 18px;
+}
+
+.hero img {
+    width: 400px;
+    height: 200px;
 }
 
 button {
@@ -54,9 +66,39 @@ button {
     border: 2px solid white;
 }
 
+.information {
+    text-align: center;
+    padding: 32px;
+}
+
 .information h2 {
     color: #1f2937;
     font-size: 36px;
+}
+
+.placards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.placards img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.placards div {
+    display: flex;
+    flex: 0 1 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 32px;
 }
 
 .testimonial quote {
