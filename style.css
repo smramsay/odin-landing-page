@@ -123,10 +123,20 @@ button {
     text-align: right;
 }
 
+.action-call-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .action-call {
     background-color: #3882f6;
     color: #F9FAF8;
     display: flex;
+    flex: 1;
+    gap: 8px;
     justify-content: space-between;
     align-items: center;
     margin: 64px;
