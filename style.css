@@ -106,11 +106,6 @@ button {
     align-items: center;
 }
 
-.testimonial {
-    background-color: #e5e7eb;
-    padding: 64px;
-}
-
 .testimonial quote {
     color: #1f2937;
     font-size: 36px;
@@ -121,14 +116,22 @@ button {
 .testimonial p {
     font-weight: bold;
     text-align: right;
+    font-size: 20px;
 }
 
-.action-call-container {
-    width: 60%;
+.action-call-container, .testimonial-container{
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.action-call-container {
+    width: 60%;
+}
+.testimonial-container {
+    padding: 128px 30%;
+    background-color: #e5e7eb;
 }
 
 .action-call {
@@ -139,8 +142,8 @@ button {
     gap: 8px;
     justify-content: space-between;
     align-items: center;
-    margin: 64px;
-    padding: 32px 64px;
+    margin: 96px;
+    padding: 48px 64px;
     border-radius: 6px;
 }
 
